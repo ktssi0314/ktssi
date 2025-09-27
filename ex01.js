@@ -33,6 +33,7 @@ let num2 = 2;
 let result = 3;
 // 1 + 2 = 3
 let str = `${num1} 더하기 ${num2}는 ${result}`;
+
 console.log(str);
 
 
