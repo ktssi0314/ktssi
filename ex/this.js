@@ -9,3 +9,4 @@ function whatIsThis(){
 whatIsThis();
 
 console.log(require.main.filename);
+console.log();
