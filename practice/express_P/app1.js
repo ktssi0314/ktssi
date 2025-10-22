@@ -2,9 +2,9 @@ const express = require('express')
 const path = require('path');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
-const index1Router1 = require('./routes1/index1');
-const user1Router1 = require('./routes1/user1');
-const user2Router2 = require('./routes1/user2');
+const index1Router1 = require('../routes1/index1');
+const user1Router1 = require('../routes1/user1');
+const user2Router2 = require('../routes1/user2');
 
 //dotenv.config(); 기존에 있던 놈의 포트번호를 저장 그래서 내가 전꺼 코드 3000이 저장 됐었음
 

@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
-const indexRouter = require('./routes/index');
-const userRouter = require('./routes/user');
+const indexRouter = require('../routes/index');
+const userRouter = require('../routes/user');
 
 //이거 실습 시험임 
 
